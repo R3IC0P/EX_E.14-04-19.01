@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtownia</title>
+
+    <link rel="stylesheet" href="styl4.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="top-box">
+                <div class="top-left">
+                    <div class="logo">
+                        <img src="logo.png" alt="hurtownia">
+                    </div>
+                </div>
+                <div class="top-right">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Strona głowna</a></li>
+                            <li><a href="zamowienia.html">Zamównienia</a></li>
+                            <li><a href="blog.html">Blog o kawie</a></li>
+                            <li><a href="https://google.com">Odwiedź także</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="bottom-header">
+            <div class="baner">
+                <h1>Hurtownia kawy</h1>
+            </div>
+        </div>
+        <main>
+            <div class="main-box">
+                <div class="main-left">
+                    <h2>Oferta</h2>
+                    <ol>
+                        <li>Kawa palona Arabica</li>
+                        <li>Kawa palona Robusta</li>
+                        <li>Kawa bezkofeinowa</li>
+                        <li>Kawa zielona</li>
+                    </ol>
+                </div>
+                <div class="main-right">
+                    Podaj numer kawy: <br>
+                    <input type="number" name="" id="nr-kawy"><br>
+                    Podaj wagę w dekagramach <br>
+                    <input type="number" name="" id="waga-dg"><br>
+                    <input type="button" value="Zamów" onclick="price()">
+                    <p id="wynik"></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="bottom-box">
+                <div class="footer">
+                    Stronę przygotował: <b>0000000000</b>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
